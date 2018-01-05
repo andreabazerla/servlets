@@ -1,0 +1,90 @@
+body {
+	padding: 25px;
+}
+
+button {
+	cursor: pointer;	
+}
+
+.header-form {
+	position: relative;
+	margin: 0 0 0 25px;
+	display: inline-block;
+	float: right;
+}
+
+.header-button {
+	cursor: pointer;
+}
+
+.password-verdict {
+	color: #dc3545;
+	font-size: small;
+}
+
+.progress {
+	position: relative;
+	margin: 10px 0 5px 0;
+	display: none;
+}
+
+.progress-bar-danger {
+	background-color: red;
+}
+
+.progress-bar-warning {
+	background-color: #007bff;
+}
+
+.progress-bar-success {
+	background-color: #007bff;
+}
+
+.left-side {
+	position: relative;
+	float: left;
+	display: inline-block;	
+}
+
+.right-side {
+	position: relative;
+	float: right;
+	display: inline-block;	
+}
+
+.field-row {
+	position: relative;
+	margin: 25px 0;
+}	
+
+.field-name {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.field-value {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.profile-image {
+	position: relative;
+	width: 100%;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+	cursor: default;
+	background-color: grey;
+	border-color: grey;
+}
+
+.disabled {
+	cursor: default;
+	background-color: grey;
+	border-color: grey;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	color: #007bff;
+}
